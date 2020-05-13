@@ -15,12 +15,12 @@ def initialize(brand)
     @color
   end
  
-  def page_count=(num)
-    @page_count = num
+  def size=(size)
+    @size = size
   end
  
-  def page_count
-    @page_count
+  def size
+    @size
   end
  
   def genre=(genre)
