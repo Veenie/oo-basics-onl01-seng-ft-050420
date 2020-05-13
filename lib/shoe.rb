@@ -31,12 +31,12 @@ def initialize(brand)
     @condition
   end
   
-  def page_count=(num)
-    @page_count = num
+  def material=(y)
+    @material = y
   end
  
-  def page_count
-    @page_count
+  def material
+    @material
   end
  
   def turn_page
