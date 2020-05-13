@@ -7,13 +7,12 @@ class Book
     @title
   end
  
-  def author=(author)
-    @author = author
+  def color=(color)
+    @color = color
   end
  
-  def author
-    @author
-  end
+  def color
+    @color
  
   def page_count=(num)
     @page_count = num
