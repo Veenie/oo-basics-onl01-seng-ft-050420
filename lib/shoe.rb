@@ -30,6 +30,7 @@ def initialize(brand)
   def condition
     @condition
   end
+  
   def page_count=(num)
     @page_count = num
   end
