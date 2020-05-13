@@ -4,11 +4,29 @@ class Shoe
   attr_reader :brand
   
   
-  def initialize(brand)
+def initialize(brand)
     @brand = brand
   end
  
-
+  def brand
+    @brand
+  end
+ 
+  def color=(color)
+    @color = color
+  end
+ 
+  def color
+    @color
+  end
+ 
+  def size=(size)
+    @size = size
+  end
+ 
+  def size
+    @size
+  end
   
   def condition=(x)
     @condition = x
@@ -26,6 +44,10 @@ class Shoe
     @material
   end
  
+  def cobble
+    @condition = "new"
+    puts "Your shoe is as good as new!!"
+  end
 
 
 
