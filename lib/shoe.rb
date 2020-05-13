@@ -23,12 +23,12 @@ def initialize(brand)
     @size
   end
   
-  def page_count=(num)
-    @page_count = num
+  def condition=(x)
+    @condition = x
   end
  
-  def page_count
-    @page_count
+  def condition
+    @condition
   end
 
  
