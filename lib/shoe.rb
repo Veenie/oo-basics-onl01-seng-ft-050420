@@ -22,7 +22,14 @@ def initialize(brand)
   def size
     @size
   end
+  
+  def page_count=(num)
+    @page_count = num
+  end
  
+  def page_count
+    @page_count
+  end
 
  
   def turn_page
