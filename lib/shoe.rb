@@ -7,12 +7,12 @@ def initialize(brand)
     @brand
   end
  
-  def author=(author)
-    @author = author
+  def color=(color)
+    @color = color
   end
  
-  def author
-    @author
+  def color
+    @color
   end
  
   def page_count=(num)
